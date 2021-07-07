@@ -15,6 +15,7 @@ window.MathJax = {
       M: "{\\mathbf{M}}",
       N: "{\\mathbf{N}}",
       P: "{\\mathbf{P}}",
+      Q: "{\\mathbf{Q}}",
       R: "{\\mathbf{R}}",
       IR: "{\\mathrm{I\\!R}}",
       S: "{\\mathbf{S}}",
@@ -37,13 +38,17 @@ window.MathJax = {
 
       calC: "{{\\cal{C}}}",
       calS: "{{\\cal{S}}}",
+      calH: "{{\\cal{H}}}",
       calI: "{{\\cal{I}}}",
+      calX: "{{\\cal{X}}}",
+      cG: "{{\\cal{G}}}",
       cH: "{{\\cal{H}}}",
+      cM: "{{\\cal{M}}}",
+      cP: "{{\\cal{P}}}",
       cT: "{{\\cal{T}}}",
-      
+
 
       LOG: "{\\mathrm{log}}",
-      log: "{\\mathrm{log}}",
       EPE: "{\\mathrm{EPE}}",
       MSE: "{\\mathrm{MSE}}",
       E: "{\\mathrm{E}}",
@@ -52,21 +57,27 @@ window.MathJax = {
       cov: "{\\mathrm{cov}}",
       Corr: "{\\mathrm{Corr}}",
       CV: "{\\mathrm{CV}}",
+      GCV: "{\\mathrm{GCV}}",
       Var: "{\\mathrm{Var}}",
+      var: "{\\mathrm{var}}",
       Bias: "{\\mathrm{Bias}}",
       det: "{\\mathrm{det}\\;}",
       cosh: "{\\mathrm{cosh}\\;}",
       tanh: "{\\mathrm{tanh}}",
       arg: "{\\mathrm{arg}\\;}",
-      max: "{\\mathrm{max}}",
-      min: "{\\mathrm{min}}",
       RSS: "{\\mathrm{RSS}}",
       PRSS: "{\\mathrm{PRSS}}",
-      argmin: "{\\mathrm{argmin}}",
+      // argmin: "{\\mathrm{argmin}}",
+      // argmax: "{\\mathrm{argmax}}",
+      // argmax: "{\\operatorname\{argmax\}}",
+      argmin: "{\\mathop\{\\operatorname\{argmin\}\}}",
+      argmax: "{\\mathop\{\\operatorname\{argmax\}\}}",
       Ave: "{\\mathrm{Ave}}",
+      ave: "{\\mathrm{ave}}",
+      Test: "{\\mathrm{Test}}",
       median: "{\\mathrm{median}}",
       card: "{\\mathrm{card}}",
-      
+
       inf: "{\\mathrm{inf}}",
       sign: "{\\mathrm{sign}}",
       df: "{\\mathrm{df}}",
@@ -81,6 +92,7 @@ window.MathJax = {
       st: "{\\mathrm{subject\\; to}\\;}",
       pr: "{\\mathrm{Pr}}",
       rank: "{\\mathrm{rank}}",
+      span: "{\\mathrm{span}}",
 
       ssigma: "{\\boldsymbol\\Sigma}",
       bSigma: "{\\boldsymbol\\Sigma}",
@@ -91,7 +103,7 @@ window.MathJax = {
 
       def: "{\\;\\overset{\\mathrm{def}}{=}\\;}",
 
-      ind: "{\\perp \\!\\!\\! \\perp}" 
+      ind: "{\\perp \\!\\!\\! \\perp}"
     },
     entensions: ["color.js"],
     equationNumbers: { autoNumber: "AMS" }

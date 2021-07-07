@@ -3,7 +3,7 @@
 | 正文 | [4.3 线性判别分析](../../04-Linear-Methods-for-Classification/4.2-Linear-Regression-of-an-Indicator-Matrix/index.html) |
 | ---- | ---------------------------------------- |
 | 作者   | szcf-weiya                               |
-| 时间   | 2018-07-11                               |
+| 发布 | 2018-07-11 |
 
 ## 生成数据
 
@@ -56,6 +56,15 @@ c2 = min(which(pred3 > pred2))
 # class 3: c2+1 ~ end
 # actually, c1 = c2
 err1 = (abs(c2 - 2*N) + abs(c1 - N))/(3*N)
+
+## Alternative method
+cl = numeric(3*N)
+for (i in 1:(3*N))
+{
+    cl[i] = which.max(c(pred1[i], pred2[i], pred3[i]))
+}
+truth = c(rep(1, N), rep(2, N), rep(3, N))
+err1 = sum(cl - truth != 0) / (3*N)
 
 ## reproduce figure 4.3 left
 png("reproduce-fig-4-3l.png")

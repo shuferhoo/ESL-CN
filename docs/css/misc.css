@@ -68,5 +68,15 @@ label.md-nav__title {
 */
 
 #comment a{
-  color: #288ce4;
+  color: #288ce4!important;
+}
+
+/* issue */
+.comment ul {
+  list-style-type: none;
+  margin-left: unset;
+}
+
+.mjx-mtd:target {
+  scroll-margin-top: 5rem!important;
 }
